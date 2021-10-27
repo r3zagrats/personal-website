@@ -1,0 +1,181 @@
+:root {
+    --white-color: #fff;
+    --black-color: #101010;
+    --text-color: #888888;
+    --border-color: #ececec;
+    --odd-content-color: #f7f7f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Display*/
+.display {
+    display: flex !important;
+}
+.display-none {
+    display: none;
+}
+
+/* BEGIN: Content */
+.content-section {
+    padding: 6rem 3rem;
+}
+
+.content-header {
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+
+.content-header p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 3rem;
+}
+
+.content-header h3 {
+    font-size: 3rem;
+    color: var(--black-color);
+    margin: 0;
+    line-height: 5rem;
+}
+
+.content-dsc p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 0 0 2rem 0;
+    line-height: 1.6;
+}
+/* END: Content */
+
+/* Button */
+.button {
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border: none;
+    font-size: 1.5rem;
+    padding: 1.4rem 1.2rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+/* Input */
+.input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 0.1rem solid var(--border-color);
+    outline: none;
+}
+
+.input:focus {
+    border-bottom: 0.2rem solid var(--black-color);
+
+}
+
+/* Textarea */
+.input.textarea {
+    resize: vertical;
+    height: 16rem;
+    min-height: 4.2rem;
+}
+
+/* Social */
+.social {
+    text-align: center;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 1rem 0;
+    min-width: 3rem;
+
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: var(--white-color);
+}
+
+/* copyright */
+.copyright {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+    line-height: 2rem;
+}
+
+.copyright-icon {
+    margin-right: 0.4rem;
+}
+
+/* Author */
+.author {
+    text-align: center;
+}
+
+.author h3 {
+    margin: 0;
+    font-size: 4rem;
+    color: var(--white-color);
+    line-height: 5rem;
+}
+
+.author p{
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+
+/* Keyframes */
+@keyframes getInFromTop {
+    from {
+        transform: translateY(-1.5rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes getInFromBot {
+    from {
+        transform: translateY(1.5rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes showIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
