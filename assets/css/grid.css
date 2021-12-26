@@ -63,12 +63,22 @@
     max-width: calc(100% / 3);
   }
 
-  .sm-col-quad {
+  .sm-col-quarter {
     flex: 0 0 25%;
     max-width: 25%;
   }
 
-  .sm-col-full {
+  .sm-col-fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .sm-col-sixth {
+    flex: 0 0 calc(100% / 6);
+    max-width: calc(100% / 6);
+  }
+
+  .sm-col-whole {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -76,11 +86,6 @@
   .sm-col-1-of-12 {
     flex: 0 0 calc(1 / 12 * 100%);
     max-width: calc(1 / 12 * 100%);
-  }
-
-  .sm-col-2-of-12 {
-    flex: 0 0 calc(2 / 12 * 100%);
-    max-width: calc(2 / 12 * 100%);
   }
 
   .sm-col-2-4-of-12 {
@@ -204,12 +209,22 @@
     max-width: calc(100% / 3);
   }
 
-  .md-col-quad {
+  .md-col-quarter {
     flex: 0 0 25%;
     max-width: 25%;
   }
 
-  .md-col-full {
+  .md-col-fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .md-col-sixth {
+    flex: 0 0 calc(100% / 6);
+    max-width: calc(100% / 6);
+  }
+
+  .md-col-whole {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -217,11 +232,6 @@
   .md-col-1-of-12 {
     flex: 0 0 calc(1 / 12 * 100%);
     max-width: calc(1 / 12 * 100%);
-  }
-
-  .md-col-2-of-12 {
-    flex: 0 0 calc(2 / 12 * 100%);
-    max-width: calc(2 / 12 * 100%);
   }
 
   .md-col-2-4-of-12 {
@@ -350,12 +360,22 @@
     max-width: calc(100% / 3);
   }
 
-  .xl-col-quad {
+  .xl-col-quarter {
     flex: 0 0 25%;
     max-width: 25%;
   }
 
-  .xl-col-full {
+  .xl-col-fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .xl-col-sixth {
+    flex: 0 0 calc(100% / 6);
+    max-width: calc(100% / 6);
+  }
+
+  .xl-col-whole {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -363,11 +383,6 @@
   .xl-col-1-of-12 {
     flex: 0 0 calc(1 / 12 * 100%);
     max-width: calc(1 / 12 * 100%);
-  }
-
-  .xl-col-2-of-12 {
-    flex: 0 0 calc(2 / 12 * 100%);
-    max-width: calc(2 / 12 * 100%);
   }
 
   .xl-col-2-4-of-12 {
@@ -505,12 +520,22 @@
     max-width: calc(100% / 3);
   }
 
-  .lg-col-quad {
+  .lg-col-quarter {
     flex: 0 0 25%;
     max-width: 25%;
   }
 
-  .lg-col-full {
+  .lg-col-fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .lg-col-sixth {
+    flex: 0 0 calc(100% / 6);
+    max-width: calc(100% / 6);
+  }
+
+  .lg-col-whole {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -518,11 +543,6 @@
   .lg-col-1-of-12 {
     flex: 0 0 calc(1 / 12 * 100%);
     max-width: calc(1 / 12 * 100%);
-  }
-
-  .lg-col-2-of-12 {
-    flex: 0 0 calc(2 / 12 * 100%);
-    max-width: calc(2 / 12 * 100%);
   }
 
   .lg-col-2-4-of-12 {
