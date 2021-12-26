@@ -1,12 +1,14 @@
-# Website tĩnh cho cá nhân
+# PERSONAL STATIC WEBSITE
 
-## Công nghệ sử dụng
+Focused on UI/UX
+
+## Technologies
 
 - HTML5
 - CSS
 - VanillaJS
 
-## Tính năng hiện có
+## Current features
 
-- Fully Responsive Website
+- Fully responsive with multiple breakpoints
 - Toggle button on Tablet & Mobile
